@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: space-between;  /* Alinha para as extremidades*/
+    background-color: #828282;  /* Cor de fundo do Header */
+    border-bottom: 10px solid #000 ; /* Coloca Borda*/
+    padding: 10px 20px;/*padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;*/
+
+}
+nav {
+    text-align: right;  /* Alinha nav para direita*/
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #fff; /* Cor da Fonte */
+    font-size:20px; /* Tamanho da Fonte */
+    font-family: "Fira code", sans-serif, arial, helvetica; /* Fontes */
+    font-weight: 500; /* Especificação da Fonte */
+    text-decoration: none;  /* Remove Link Sublinhado ____*/
+    margin-right:30px; /* Alinha Margem 30px para direita */
+}
+
+/* substitui o html "span" (vazio) por um pseudo a antes do elemento,(before) ponto quadrado azul */
+a::before{              
+    content:" ";
+    background-color: #5D5FEF;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+
+}
+
+/* Trocar cor quando passar mouse por cima do id=button*/
+#button:hover {
+    background-color:white;
+    color: red;
+}
+
+/* Modifica o botão do header id="button" #button para chamar o ID  */
+#button{
+    
+    display: inline-block;  /* Remove o bloqueio de alterações de altura e largura*/
+    background-color:#5D5FEF;
+    height:60px;
+    line-height: 60px; /* Centraliza uma linha dentro de uma caixa*/
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 5px 5px 0px black; /* Sombra da Caixa do button ( x , y , opacidade, cor) */
+    margin-right: 0;
+
+}
+span{
+    background-color: #5D5FEF;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+
+}
