@@ -1,0 +1,67 @@
+
+
+>  ls
+>  cd github/
+>  ls
+>  cd curso-html-css
+>  git init
+
+
+> ls -la
+> clear
+
+>  git status
+>  git add index.html
+>  git status 
+>  git commit -m "mensagem descrição"
+>  git config --global user.name "You name"
+>  git config --global user.email "email"
+>  git log                  <-- ver todos os commits
+
+>  git commit --amend --reset-author         <- troca usuario 
+>  git log
+>    para sair  >  esc:q!
+
+> git add .
+> git status
+> git commit -m "Cria o Header"
+
+---------------altera mensagem git ---------------
+
+> git commit --amend  
+
+--------------entrando no arquivo ( entrar no html )  ------------
+
+> vim index.html
+>  esc:x    <-- para salvar e sair  
+
+------------- GIT HUB --------
+
+>  git remote add origin (cola a url, sem parentezes, para colar ctrl + shit + v)
+>  git status
+
+----------- exclui ultima postagem ----------
+>  git checkout index.html
+>  git status
+
+---------- envia arquivos da pasta local (pc) para o github ------
+>  git push -u origin master
+> usuario 
+> senha
+
+------------- atualizando arquivos para o github -------------
+
+>  git add .           <-- envia todos os arquivos
+
+>  git commit -m "Descrição da mudança"
+
+>  git push             <--- salva os arquivos laa
+
+
+----------------- Clonando do git hub  --------------
+
+>  git cd --       <-- volta pasta
+
+>  git clone https://github.com/doncray/curso-html-css.git            <-- clona (download)
+
+
